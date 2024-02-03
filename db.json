@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "0731",
+      "title": "sad",
+      "author": "asd"
+    },
+    {
+      "id": "4ec8",
+      "title": "asd",
+      "author": "sad"
+    },
+    {
+      "id": "cade",
+      "title": "sad",
+      "author": "sad"
+    },
+    {
+      "id": "f564",
+      "title": "fsaf",
+      "author": "asf"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typescript"
+  }
+}

@@ -1,0 +1,15 @@
+<ul>
+    <li *ngFor="let todo of todos()"> 
+        {{todo.title}}
+        
+         <button (click)="edit(todo)">Edit</button>
+        <button (click)="delete(todo.id)">Delete</button>
+    </li>
+</ul>
+
+<form [formGroup]="todoForm" action="">
+    <input formControlName="title" type="text">
+    <input formControlName="author" type="text">
+    <button (click)="addOrUpdateTodo()">{{todoForm.value.id === -1? 'Add Todo' : 'Edit Todo'}}</button>
+
+</form>
